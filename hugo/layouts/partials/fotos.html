@@ -1,6 +1,9 @@
+
+
 <section class="main">
         <ul id="cbp-bislideshow" class="cbp-bislideshow">
-        {{ range .Site.Params.fotos }}<li><img src="{{ .img }}" alt="{{ .alt }}" />{{ end }}
+            {{ $baseurl := .Site.BaseURL }}
+        {{ range .Site.Params.fotos }}<li><img src="{{ $baseurl }}{{ .img }}" alt="{{ .alt }}" />{{ end }}
         </ul>
     
         <div class="logo-content-devices devices">
@@ -8,7 +11,7 @@
                 <span class="line bg-white">&nbsp;</span><span class="trattoria white">Trattoria</span><span class="line bg-white">&nbsp;</span>
             </div>
             <div class="text-center logo-container">
-                <a href="https://www.alcovo.ch" target="_blank"><img src="{{ with .Site.Params.logoWhite }}{{ . }}{{ end }}" alt="" class="logo"></a>
+                <a href="https://www.alcovo.ch" target="_blank"><img src="{{ .Site.BaseURL }}{{ with .Site.Params.logoWhite }}{{ . }}{{ end }}" alt="" class="logo"></a>
             </div>
             <div class="text-center slogan-container">
                 <div class="white text-shadow">{{ with .Site.Params.slogan.title2 }}{{ . | markdownify }}{{ end }}</div>
@@ -21,7 +24,7 @@
                         <span class="line bg-ocre">&nbsp;</span><span class="trattoria ocre">Trattoria</span><span class="line bg-ocre">&nbsp;</span>
                     </div>
                     <div class="text-center logo-container">
-                        <a href="https://www.alcovo.ch" target="_blank"><img src="{{ with .Site.Params.logo }}{{ . }}{{ end }}" alt="" class="logo"></a>
+                        <a href="https://www.alcovo.ch" target="_blank"><img src="{{ .Site.BaseURL }}{{ with .Site.Params.logo }}{{ . }}{{ end }}" alt="" class="logo"></a>
                     </div>
                     <div class="text-center slogan-container">
                         <div class="ocre">{{ with .Site.Params.slogan.title2 }}{{ . | markdownify }}{{ end }}</div>

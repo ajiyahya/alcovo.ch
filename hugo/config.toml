@@ -7,8 +7,8 @@ googleAnalytics = "UA-1112076-7"
 [Params]
     Author = "TRATTORIA Al Covo"
     description = "alcovo, wittenbach, st.Gallen, sankt gallen, ristorante, restaurant, restaurants, restaurant business, italienisch, italienische lebensart , mediterrane, pizzeria, trattoria"
-    logo = "/img/logo_alcovo.png"
-    logoWhite = "/img/logo_alcovo_white.png"
+    logo = "img/logo_alcovo.png"
+    logoWhite = "img/logo_alcovo_white.png"
 [Params.slogan]
         title = "Herzlich willkommen in unserer Trattoria Al Covo"
         title2 = "Ihr Essen, ungezwungen in einer speziellen Umgebung"
@@ -27,43 +27,43 @@ googleAnalytics = "UA-1112076-7"
 
 [[Params.fotos]]
     alt = "image05"
-    img = "/img/fotos/fotos-005.jpg"
+    img = "img/fotos/fotos-005.jpg"
 [[Params.fotos]]
     alt = "image06"
-    img = "/img/fotos/fotos-006.jpg"
+    img = "img/fotos/fotos-006.jpg"
 [[Params.fotos]]
     alt = "image01"
-    img = "/img/fotos/fotos-001.jpg"
+    img = "img/fotos/fotos-001.jpg"
 [[Params.fotos]]
     alt = "image02"
-    img = "/img/fotos/fotos-002.jpg"
+    img = "img/fotos/fotos-002.jpg"
 [[Params.fotos]]
     alt = "image03"
-    img = "/img/fotos/fotos-003.jpg"
+    img = "img/fotos/fotos-003.jpg"
 [[Params.fotos]]
     alt = "image07"
-    img = "/img/fotos/fotos-007.jpg"
+    img = "img/fotos/fotos-007.jpg"
 [[Params.fotos]]
     alt = "image08"
-    img = "/img/fotos/fotos-008.jpg"
+    img = "img/fotos/fotos-008.jpg"
 [[Params.fotos]]
     alt = "image09"
-    img = "/img/fotos/fotos-009.jpg"
+    img = "img/fotos/fotos-009.jpg"
 [[Params.fotos]]
     alt = "image10"
-    img = "/img/fotos/fotos-010.jpg"
+    img = "img/fotos/fotos-010.jpg"
 [[Params.fotos]]
     alt = "image11"
-    img = "/img/fotos/fotos-011.jpg"
+    img = "img/fotos/fotos-011.jpg"
 [[Params.fotos]]
     alt = "image12"
-    img = "/img/fotos/fotos-012.jpg"
+    img = "img/fotos/fotos-012.jpg"
 [[Params.fotos]]
     alt = "image13"
-    img = "/img/fotos/fotos-013.jpg"
+    img = "img/fotos/fotos-013.jpg"
 [[Params.fotos]]
     alt = "image14"
-    img = "/img/fotos/fotos-014.jpg"
+    img = "img/fotos/fotos-014.jpg"
 
 [Params.kueche]
     text = "Die Trattoria Al Covo folgt der Philosophie einer traditionellen, frischen und saisonalen italienischen Küche. Für die Zubereitung verwenden wir frische Zutaten. Daraus fertigen wir viele Spezialitäten selbst, weil keine Rezepte so gut sind wie die, die wir von Grossmutter kennen. So sind z.B. Pasta, Saucen, unsere beliebte Salsiccia, Desserts wir Tiramisu und Glacé selbst gemacht. Speziell bei der Glacé folgen wir dem Jahreszeiten - Angebot der Natur."
