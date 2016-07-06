@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ambientes on Al Covo</title>
+    <link>http://ajiyahya.github.io/alcovo.ch/ambiente/</link>
+    <description>Recent content in Ambientes on Al Covo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <lastBuildDate>Wed, 29 Jun 2016 14:39:58 +0200</lastBuildDate>
+    <atom:link href="http://ajiyahya.github.io/alcovo.ch/ambiente/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>fotos</title>
+      <link>http://ajiyahya.github.io/alcovo.ch/ambiente/fotos/</link>
+      <pubDate>Wed, 29 Jun 2016 14:39:58 +0200</pubDate>
+      
+      <guid>http://ajiyahya.github.io/alcovo.ch/ambiente/fotos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>terrasse</title>
+      <link>http://ajiyahya.github.io/alcovo.ch/ambiente/terrasse/</link>
+      <pubDate>Wed, 29 Jun 2016 14:39:53 +0200</pubDate>
+      
+      <guid>http://ajiyahya.github.io/alcovo.ch/ambiente/terrasse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>italienischesauto</title>
+      <link>http://ajiyahya.github.io/alcovo.ch/ambiente/italienischesauto/</link>
+      <pubDate>Wed, 29 Jun 2016 14:39:44 +0200</pubDate>
+      
+      <guid>http://ajiyahya.github.io/alcovo.ch/ambiente/italienischesauto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pizzaofen</title>
+      <link>http://ajiyahya.github.io/alcovo.ch/ambiente/pizzaofen/</link>
+      <pubDate>Wed, 29 Jun 2016 14:39:25 +0200</pubDate>
+      
+      <guid>http://ajiyahya.github.io/alcovo.ch/ambiente/pizzaofen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pastamaschine</title>
+      <link>http://ajiyahya.github.io/alcovo.ch/ambiente/pastamaschine/</link>
+      <pubDate>Wed, 29 Jun 2016 14:39:16 +0200</pubDate>
+      
+      <guid>http://ajiyahya.github.io/alcovo.ch/ambiente/pastamaschine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>muehlrad</title>
+      <link>http://ajiyahya.github.io/alcovo.ch/ambiente/muehlrad/</link>
+      <pubDate>Wed, 29 Jun 2016 14:38:07 +0200</pubDate>
+      
+      <guid>http://ajiyahya.github.io/alcovo.ch/ambiente/muehlrad/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
