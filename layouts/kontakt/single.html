@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body id="page-top" class="kontakt">
+        {{ partial "nav.html" . }}
+        {{ partial "kontakt.html" . }}
+        {{ partial "js.html" . }}
+        {{ partial "jsmaps.html" . }}
+    </body>
+</html>

@@ -1,0 +1,56 @@
+<section class="main">
+        <div class="logo-content-devices devices">
+            <div class="text-center text-shadow">
+                <span class="line bg-white">&nbsp;</span><span class="trattoria white">Trattoria</span><span class="line bg-white">&nbsp;</span>
+            </div>
+            <div class="text-center logo-container">
+                <a href="https://www.alcovo.ch" target="_blank"><img src="{{ with .Site.Params.logoWhite }}{{ . }}{{ end }}" alt="" class="logo"></a>
+            </div>
+            <div class="text-center slogan-container">
+                <div class="white text-shadow">{{ with .Site.Params.slogan.title2 }}{{ . | markdownify }}{{ end }}</div>
+            </div>
+        </div>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <div class="logo-content-devices screens">
+                    <div class="text-center">
+                        <span class="line bg-ocre">&nbsp;</span><span class="trattoria ocre">Trattoria</span><span class="line bg-ocre">&nbsp;</span>
+                    </div>
+                    <div class="text-center logo-container">
+                        <a href="https://www.alcovo.ch" target="_blank"><img src="{{ with .Site.Params.logo }}{{ . }}{{ end }}" alt="" class="logo"></a>
+                    </div>
+                    <div class="text-center slogan-container">
+                        <div class="ocre">{{ with .Site.Params.slogan.title2 }}{{ . | markdownify }}{{ end }}</div>
+                    </div>
+                </div>
+                
+                <div class="content-subpages">
+                    <p class="braun">{{ with .Site.Params.kontakt.adresse }}{{ . | markdownify }}{{ end }}</p>
+                    
+                    
+                    
+                    <br /><span class="line bg-ocre text-center">&nbsp;</span><br /><br />
+                    <h2 class="uppercase">{{ with .Site.Params.kontakt.openingHoursTitle }}{{ . | markdownify }}{{ end }}</h2>
+                    <p class="braun">{{ with .Site.Params.kontakt.openingHours }}{{ . | markdownify }}{{ end }}</p>
+                    
+                    <br /><span class="line bg-ocre text-center">&nbsp;</span><br /><br />
+                    <h2 class="uppercase"><a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">{{ with .Site.Params.kontakt.lageplan }}{{ . | markdownify }}{{ end }}</a></h2><br /><br />
+                </div>
+            </div>
+        </div>
+</section>
+<!-- Portfolio Modal 1 -->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+                        <div id="map-canvas"></div>
+
+
+    </div>
+</div>
+        

@@ -1,0 +1,41 @@
+<section class="main">
+        <div class="logo-content-devices devices">
+            <div class="text-center text-shadow">
+                <span class="line bg-white">&nbsp;</span><span class="trattoria white">Trattoria</span><span class="line bg-white">&nbsp;</span>
+            </div>
+            <div class="text-center logo-container">
+                <a href="https://www.alcovo.ch" target="_blank"><img src="{{ with .Site.Params.logoWhite }}{{ . }}{{ end }}" alt="" class="logo"></a>
+            </div>
+            <div class="text-center slogan-container">
+                <div class="white text-shadow">{{ with .Site.Params.slogan.title }}{{ . | markdownify }}{{ end }}</div>
+            </div>
+        </div>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <div class="logo-content-devices screens">
+                    <div class="text-center">
+                        <span class="line bg-ocre">&nbsp;</span><span class="trattoria ocre">Trattoria</span><span class="line bg-ocre">&nbsp;</span>
+                    </div>
+                    <div class="text-center logo-container">
+                        <a href="https://www.alcovo.ch" target="_blank"><img src="{{ with .Site.Params.logo }}{{ . }}{{ end }}" alt="" class="logo"></a>
+                    </div>
+                    <div class="text-center slogan-container">
+                        <div class="ocre">{{ with .Site.Params.slogan.title }}{{ . | markdownify }}{{ end }}</div>
+                    </div>
+                </div>
+                <div class="text-center ruota-container">
+                    <img src="img/ruota.png" alt="Al Covo Mühlrad"/>
+                </div>
+                <div class="startpage-content-devices">
+                    <p class="braun">{{ with .Site.Params.startpage.text }}{{ . | markdownify }}{{ end }} </p>
+                </div>
+                <div class="angebote">
+                    <span class="red">{{ with .Site.Params.startpage.angebot.text1 }}{{ . | markdownify }}{{ end }}</span>
+                    <span class="red">{{ with .Site.Params.startpage.angebot.text2 }}{{ . | markdownify }}{{ end }}</span>
+                </div>
+            </div>
+        </div>
+</section>
+<div class="startpage-content-screens">
+        <p class="white">{{ with .Site.Params.startpage.text }}{{ . | markdownify }}{{ end }} </p>
+</div>

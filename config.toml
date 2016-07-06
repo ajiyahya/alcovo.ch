@@ -1,0 +1,150 @@
+baseurl = "localhost:1313/"
+languageCode = "de-de"
+title = "Al Covo"
+
+googleAnalytics = "UA-1112076-7"
+
+[Params]
+    Author = "TRATTORIA Al Covo"
+    description = "alcovo, wittenbach, st.Gallen, sankt gallen, ristorante, restaurant, restaurants, restaurant business, italienisch, italienische lebensart , mediterrane, pizzeria, trattoria"
+    logo = "/img/logo_alcovo.png"
+    logoWhite = "/img/logo_alcovo_white.png"
+[Params.slogan]
+        title = "Herzlich willkommen in unserer Trattoria Al Covo"
+        title2 = "Ihr Essen, ungezwungen in einer speziellen Umgebung"
+[Params.startpage]
+        text  = "Das Al Covo feiert jeden Tag die Meisterleistung der Italienischen Küche, die ohne Leidenschaft und Tradition nicht mehr existieren würde. Pizza und Pasta sind die Hauptfiguren ihrer eigenen Einfachheit und Genialität, sie sind die Kinder einer Kultur, in der das Rezept von einer Generation zur nächsten weiter gegeben wird. "
+[Params.muehlrad]
+        text  = "Das Mühlrad hat eine einfache, aber perfekte Form. Sein Kreis erinnert daran, dass das Leben wertvolle Traditionen und gute Dinge beibehält. Sie gehen und kommen wieder. Dort beginnt der Lebenszyklus der Pasta, wertvolles Pulver, das zum ersten Mal Mehl genannt wird und von dort als feiner Teig seinen Weg auf unsere Teller findet."
+[Params.pastamachine]
+        text  = "Wir im Al Covo haben uns entschieden, das Werk der Maschine zu zelebrieren, indem wir sie ins Zentrum des Restaurants stellen und sie so zu einem Symbol des Respekts und des Stolzes für handgefertigte Pasta machen."
+[Params.pizzaofen]
+        text  = "Feuer ist anziehend und faszinierend. Aber nicht nur das. Durch das Backen bei Temperaturen von ca. 300°C auf Buchenholz bekommt die Pizza diesen rauchigen ursprünglichen Geschmack. Die Seele des Teiges verbindet sich mit den Aromen der Sauce und der Zutaten und daraus entsteht Ihre perfekte Pizza. Buon appetito!"
+[Params.italienisches_auto]
+        text  = "Fühlen Sie sich ein klein wenig nach Italien versetzt? Hören Sie das Hupen des Gemüsehändlers, wenn er sein frisches Gemüse auf den Markt bringt? Hören Sie die Stimmen der Marktschreier, wenn sie ihre Spezialitäten anpreisen? Benvenuti!"                      
+[Params.terrasse]
+        text  = "Unsere Terrasse ist ein Ort der Erholung und des Genusses. Bringen Sie Ihre Familie und Ihre Freunde mit und verbringen Sie einen unbeschwerten Nachmittag oder Abend auf unserer Piazza. Sonnenschein, ein warmer Windhauch und das Plätschern des Wasserlaufs lassen Sie schon von Ihren nächsten Ferien träumen."                      
+
+[[Params.fotos]]
+    alt = "image05"
+    img = "/img/fotos/fotos-005.jpg"
+[[Params.fotos]]
+    alt = "image06"
+    img = "/img/fotos/fotos-006.jpg"
+[[Params.fotos]]
+    alt = "image01"
+    img = "/img/fotos/fotos-001.jpg"
+[[Params.fotos]]
+    alt = "image02"
+    img = "/img/fotos/fotos-002.jpg"
+[[Params.fotos]]
+    alt = "image03"
+    img = "/img/fotos/fotos-003.jpg"
+[[Params.fotos]]
+    alt = "image07"
+    img = "/img/fotos/fotos-007.jpg"
+[[Params.fotos]]
+    alt = "image08"
+    img = "/img/fotos/fotos-008.jpg"
+[[Params.fotos]]
+    alt = "image09"
+    img = "/img/fotos/fotos-009.jpg"
+[[Params.fotos]]
+    alt = "image10"
+    img = "/img/fotos/fotos-010.jpg"
+[[Params.fotos]]
+    alt = "image11"
+    img = "/img/fotos/fotos-011.jpg"
+[[Params.fotos]]
+    alt = "image12"
+    img = "/img/fotos/fotos-012.jpg"
+[[Params.fotos]]
+    alt = "image13"
+    img = "/img/fotos/fotos-013.jpg"
+[[Params.fotos]]
+    alt = "image14"
+    img = "/img/fotos/fotos-014.jpg"
+
+[Params.kueche]
+    text = "Die Trattoria Al Covo folgt der Philosophie einer traditionellen, frischen und saisonalen italienischen Küche. Für die Zubereitung verwenden wir frische Zutaten. Daraus fertigen wir viele Spezialitäten selbst, weil keine Rezepte so gut sind wie die, die wir von Grossmutter kennen. So sind z.B. Pasta, Saucen, unsere beliebte Salsiccia, Desserts wir Tiramisu und Glacé selbst gemacht. Speziell bei der Glacé folgen wir dem Jahreszeiten - Angebot der Natur."
+
+[[Params.menukarten]]
+    name = "Menukarte"
+    link = "menukarte.pdf"
+[[Params.menukarten]]
+    name = "Mittagsmenu"
+    link = "menukarte.pdf"
+[[Params.menukarten]]
+    name = "Weinkarte"
+    link = "menukarte.pdf"
+
+[Params.startpage.angebot]
+        text1  = "Immer Mittwochabend ab 18:00 Uhr"
+        text2 = "Jede Pizza Nur 12 Franken"
+
+[Params.kontakt]
+        adresse = 'Neben dem Restaurant befinden sich hauseigene Parkplätze und Buslinie 10 hält direkt am Abacus-Platz.<br /><br />Abacus-Platz 1 <br />CH-9300 Wittenbach-St.Gallen <br />Tel. 071 290 20 20 <br />Fax 071 290 20 22 <br /><a href="http://www.alcovo.ch">www.alcovo.ch</a><br /><a href="mailto:info@alcovo.ch">info@alcovo.ch</a><br />'
+        openingHoursTitle = 'Öffnungszeiten:'
+        openingHours =  'Mittwoch bis Freitag<br /> 11.30 bis 14.00 Uhr<br /> und ab 18.00 Uhr <br />Samstag ab 18.00 Uhr <br />sowie Sonntagabend<br /> 17.00 bis 21.00 Uhr'
+        lageplan = "Lageplan"
+# Navigation
+  [[menu.main]]
+        name = "Home"
+        identifier = "home"
+        weight = -140
+        url = "/"
+          
+[[menu.main]]
+        name = "Ambiente"
+        identifier = "ambiente"
+        url = "/ambiente/muehlrad/"
+        weight = -130
+        # Sub Navigation
+        [[menu.main]]
+                name = "Mühlrad"
+                identifier = "muehlrad"
+                parent = "ambiente"
+                weight = -160
+                url = "/ambiente/muehlrad/"
+
+        [[menu.main]]
+                name = "Pastamaschine"
+                identifier = "pastamaschine"
+                parent = "ambiente"
+                url = "/ambiente/pastamaschine/"
+                weight = -150
+        [[menu.main]]
+                name = "Pizzaofen"
+                identifier = "pizzaofen"
+                parent = "ambiente"
+                url = "/ambiente/pizzaofen/"
+                weight = -140  
+        [[menu.main]]
+                name = "Italienisches Auto"
+                identifier = "italienischesauto"
+                parent = "ambiente"
+                url = "/ambiente/italienischesauto/"
+                weight = -130 
+        [[menu.main]]
+                name = "Terrasse"
+                identifier = "terrasse"
+                parent = "ambiente"
+                url = "/ambiente/terrasse/"
+                weight = -120  
+        [[menu.main]]
+                name = "Fotos"
+                identifier = "fotos"
+                parent = "ambiente"
+                url = "/ambiente/fotos/"
+                weight = -110 
+
+[[menu.main]]
+        name = "Küche"
+        identifier = "kueche"
+        url = "/kueche/"
+        weight = -120  
+[[menu.main]]
+        name = "Kontakt"
+        identifier = "kontakt"
+        url = "/kontakt/"
+        weight = -110   

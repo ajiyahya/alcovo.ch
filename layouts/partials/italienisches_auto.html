@@ -1,0 +1,45 @@
+<section class="main">
+        <div class="logo-content-devices devices">
+            <div class="text-center text-shadow">
+                <span class="line bg-white">&nbsp;</span><span class="trattoria white">Trattoria</span><span class="line bg-white">&nbsp;</span>
+            </div>
+            <div class="text-center logo-container">
+                <a href="https://www.alcovo.ch" target="_blank"><img src="{{ with .Site.Params.logoWhite }}{{ . }}{{ end }}" alt="" class="logo"></a>
+            </div>
+            <div class="text-center slogan-container">
+                <div class="white text-shadow">{{ with .Site.Params.slogan.title2 }}{{ . | markdownify }}{{ end }}</div>
+            </div>
+        </div>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <div class="logo-content-devices screens">
+                    <div class="text-center">
+                        <span class="line bg-ocre">&nbsp;</span><span class="trattoria ocre">Trattoria</span><span class="line bg-ocre">&nbsp;</span>
+                    </div>
+                    <div class="text-center logo-container">
+                        <a href="https://www.alcovo.ch" target="_blank"><img src="{{ with .Site.Params.logo }}{{ . }}{{ end }}" alt="" class="logo"></a>
+                    </div>
+                    <div class="text-center slogan-container">
+                        <div class="ocre">{{ with .Site.Params.slogan.title2 }}{{ . | markdownify }}{{ end }}</div>
+                    </div>
+                </div>
+                
+                <div class="content-subpages">
+                    <p class="braun">{{ with .Site.Params.italienisches_auto.text }}{{ . | markdownify }}{{ end }}</p>
+                    <br /><span class="line bg-ocre text-center">&nbsp;</span><br />
+                </div>
+                
+                <div class="subnavi">
+                    <ul>
+                    {{ $currentNode := . }}
+                    {{ range .Site.Menus.main }}
+                        {{ range .Children }}
+                        <li><a href="{{ .URL }}" class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}">{{ .Name }}</a></li>
+                        {{ end }}
+                    {{end}}
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+</section>

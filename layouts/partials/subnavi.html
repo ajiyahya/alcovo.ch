@@ -1,0 +1,6 @@
+<ul>
+{{ $currentNode := . }}
+    {{ range .Site.Menus.sub }}
+    <li><a href="{{ .URL }}" class="page-scroll {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}">{{ .Name }}</a></li>
+{{ end }}
+</ul>
