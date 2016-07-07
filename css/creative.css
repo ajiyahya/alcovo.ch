@@ -4,128 +4,39 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
-html,
-body {
-  height: 100%;
-  width: 100%;
-  
-}
-body {
-  font-family: 'FuturaStd-Book',  sans-serif, 'Helvetica Neue', Arial;
-  font-weight:300;
-  letter-spacing: 3px;
-  background-color: #f8f7ee;
-}
-body.startpage {
-    background: url('../img/header/startpage-bg.jpg') no-repeat center top local;background-size: auto 600px;
-    background-color: #f8f7ee;
-}
-body.muehlrad {
-    background: url('../img/header/muehlrad-bg.jpg') no-repeat center -40px local;background-size: auto 600px;
-    background-color: #f8f7ee;
-}
-body.pastamachine {
-    background: url('../img/header/pastamachine-bg.jpg') no-repeat 60% top local;background-size: auto 600px;
-    background-color: #f8f7ee;
-}
-body.pizzaofen {
-    background: url('../img/header/pizzaofen-bg.jpg') no-repeat 60% top local;background-size: auto 600px;
-    background-color: #f8f7ee;
-}
-body.italienisches_auto {
-    background: url('../img/header/italienisches_auto-bg.jpg') no-repeat 60% top local;background-size: auto 600px;
-    background-color: #f8f7ee;
-}
-body.terrasse {
-    background: url('../img/header/terrasse-bg.jpg') no-repeat 60% top local;background-size: auto 600px;
-    background-color: #f8f7ee;
-}
-body.kueche {
-    background: url('../img/header/kueche-bg.jpg') no-repeat 60% top local;background-size: auto 600px;
-    background-color: #f8f7ee;
-}
-body.kontakt {
-    background: url('../img/header/kontakt-bg.jpg') no-repeat 60% top local;background-size: auto 600px;
-    background-color: #f8f7ee;
-}
-hr {
-  border-color: #f05f40;
-  border-width: 3px;
-  max-width: 50px;
-}
-hr.light {
-  border-color: white;
-}
-a {
-  -webkit-transition: all 0.35s;
-  -moz-transition: all 0.35s;
-  transition: all 0.35s;
-  color: #a40000;
-  outline: 0;
-}
-a:hover,
-a:focus {
-  color: #a40000;
-  outline: 0;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
- font-family: 'FuturaStd-Book',  sans-serif, 'Helvetica Neue', Arial;
-}
+html, body {height: 100%;width: 100%;}
+body {font-family: 'FuturaStd-Book',  sans-serif, 'Helvetica Neue', Arial;font-weight:300;letter-spacing: 3px;background-color: #f8f7ee;}
+
+body.startpage {background: url('../img/header/startpage-bg.jpg') no-repeat center top local;background-size: auto 600px;background-color: #f8f7ee;}
+body.muehlrad {background: url('../img/header/muehlrad-bg.jpg') no-repeat center -40px local;background-size: auto 600px;background-color: #f8f7ee;}
+body.pastamachine {background: url('../img/header/pastamachine-bg.jpg') no-repeat 60% top local;background-size: auto 600px;background-color: #f8f7ee;}
+body.pizzaofen { background: url('../img/header/pizzaofen-bg.jpg') no-repeat 60% top local;background-size: auto 600px;background-color: #f8f7ee;}
+body.italienisches_auto {background: url('../img/header/italienisches_auto-bg.jpg') no-repeat 50% top local;background-size: auto 600px;background-color: #f8f7ee;}
+body.terrasse {background: url('../img/header/terrasse-bg.jpg') no-repeat 60% top local;background-size: auto 600px;background-color: #f8f7ee;}
+body.kueche {background: url('../img/header/kueche-bg.jpg') no-repeat 60% top local;background-size: auto 600px;background-color: #f8f7ee;}
+body.kontakt {background: url('../img/header/kontakt-bg.jpg') no-repeat 60% top local;background-size: auto 600px;background-color: #f8f7ee;}
+hr {border-color: #f05f40;border-width: 3px;max-width: 50px;}
+hr.light {border-color: white;}
+a {-webkit-transition: all 0.35s;-moz-transition: all 0.35s;transition: all 0.35s;color: #a40000; outline: 0;}
+a:hover,a:focus {color: #a40000;outline: 0;}
+h1,h2,h3,h4,h5,h6 {font-family: 'FuturaStd-Book',  sans-serif, 'Helvetica Neue', Arial;}
 h2 {font-size: 14px;text-transform: uppercase}
-p {
-  font-size: 14px;
-  line-height: 26px;
-  font-weight: 300;
-}
-.bg-primary {
-  background-color: #f05f40;
-}
-.bg-dark {
-  background-color: #222222;
-  color: white;
-}
-.bg-ocre {
-   background-color: #a69a8e; 
-}
-.bg-white {
-   background-color: #ffffff; 
-}
-.ocre {
-   color: #a69a8e; 
-}
+p {font-size: 14px;line-height: 26px;font-weight: 300;}
+.bg-primary {background-color: #f05f40;}
+.bg-dark {background-color: #222222;color: white;}
+.bg-ocre {background-color: #a69a8e; }
+.bg-white {background-color: #ffffff;}
+.ocre {color: #a69a8e; }
 .white {color:#ffffff;}
 .red {color:#a40000;}
 .braun {color:#42281a;}
 .text-shadow {text-shadow: 1px 1px 4px #2b1205;}
-.text-faded {
-  color: rgba(255, 255, 255, 0.7);
-}
+.text-faded {color: rgba(255, 255, 255, 0.7);}
 .opacity-20 {opacity: 0.2}
-section {
-  padding: 100px 0;
-}
-aside {
-  padding: 50px 0;
-}
-.no-padding {
-  padding: 0;
-}
-#mainNav {
-
-}
-.navbar-default {
-  background-color: transparent;
-  border-color:transparent;
-   font-family: 'FuturaStd-Book',  sans-serif, 'Helvetica Neue', Arial;
-  -webkit-transition: all 0.35s;
-  -moz-transition: all 0.35s;
-  transition: all 0.35s;
-}
+section {padding: 100px 0;}
+aside {padding: 50px 0;}
+.no-padding {padding: 0;}
+.navbar-default {background-color: transparent;border-color:transparent;font-family: 'FuturaStd-Book',  sans-serif, 'Helvetica Neue', Arial;-webkit-transition: all 0.35s;-moz-transition: all 0.35s;transition: all 0.35s;}
 .navbar-toggle {
   position: relative;
   float: right;
@@ -177,6 +88,7 @@ aside {
     background-color: transparent;
     border-color:transparent;
     border-top:0px;
+    
     }
 .navbar-nav {background-color: rgba(0,0,0,0.9);border:0px;margin:0 0 0 0;padding:20px;}
 .logo-container {margin:46px 0 0 0;padding:20px 0 0 0;}
@@ -196,62 +108,8 @@ aside {
     .logo-content-devices {padding:2px 0 0 0;}
     .devices {display:none;}
     .screens {display:block;}
-    body.startpage {
-    background: url('../img/header/startpage-bg.jpg') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    }
-    body.muehlrad {
-    background: url('../img/header/muehlrad-bg.jpg') no-repeat 240px top fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    }
-    body.pastamachine {
-    background: url('../img/header/pastamachine-bg.jpg') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    }
-    body.pizzaofen {
-    background: url('../img/header/pizzaofen-bg.jpg') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    }
-    body.italienisches_auto {
-    background: url('../img/header/italienisches_auto-bg.jpg') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    }
-    body.terrasse {
-    background: url('../img/header/terrasse-bg.jpg') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    }
-    body.kueche {
-    background: url('../img/header/kueche-bg.jpg') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    }
-    body.kontakt {
-    background: url('../img/header/kontakt-bg.jpg') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    }
+    body.startpage ,body.muehlrad, body.pastamachine, body.pizzaofen, body.italienisches_auto, body.terrasse, body.kueche, body.kontakt{background-repeat: no-repeat; background-position:center center; background-attachment:fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+    body.muehlrad {background-position:240px top;}
     .navbar-fixed-top .navbar-collapse{
     background-color: transparent;
     border-color:transparent;
@@ -412,8 +270,7 @@ span.line {
   .main {
     height:100%;
     min-height: 100%;
-     
-  }
+   }
   .main .header-content {
     position: absolute;
     top:0;
@@ -439,14 +296,6 @@ span.line {
     margin-left: auto;
     margin-right: auto;
   }
-  .main .header-content .header-content-inner p {
-   /* font-size: 18px;
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;*/
-  }
-
-  
 }
 .section-heading {
   margin-top: 0;
@@ -772,135 +621,79 @@ body {
   height:480px;
 }
 
-.cbp-bislideshow {
-	list-style: none;
-	width: 100%;
-	height: 100%;
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: -1;
-	
-	margin: 0;
-}
-
-.cbp-bislideshow li {
-	position: absolute;
-	width: 101%;
-	height: 101%;
-	top: -0.5%;
-	left: -0.5%;
-	opacity: 0;
-	-webkit-transition: opacity 1s;
-	-moz-transition: opacity 1s;
-	transition: opacity 1s;
-}
-
+.cbp-bislideshow {list-style: none;width: 100%;height: 100%;position: fixed;top: 0;left: 0;z-index: -1;margin: 0;}
+.cbp-bislideshow li {position: absolute;width: 101%;height: 101%;top: -0.5%;left: -0.5%;opacity: 0;-webkit-transition: opacity 1s;-moz-transition: opacity 1s;transition: opacity 1s;}
 /* If background-size supported we'll add the images to the background of the li */
-
-.backgroundsize .cbp-bislideshow li {
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: 120% auto;
-	background-position: right top;
-        background-repeat: no-repeat;
-        background-attachment: local;
-        
-}
+.backgroundsize .cbp-bislideshow li {-webkit-background-size: cover;-moz-background-size: cover;background-size: 120% auto;background-position: right top; background-repeat: no-repeat; background-attachment: local;}
+.cbp-bicontrols span {display:inline-block;width: 36px;height: 54px; position: relative;line-height: 54px;cursor: pointer; margin:0 10px 0 10px;border-top: 1px solid #dfdbd1 ; border-bottom: 1px solid #dfdbd1 ;}
 @media (min-width: 768px) {
-.backgroundsize .cbp-bislideshow li {
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	background-position: center center;
-        background-repeat: no-repeat;
+    .backgroundsize .cbp-bislideshow li {-webkit-background-size: cover;-moz-background-size: cover;background-size: cover;background-position: center center;background-repeat: no-repeat;}
+    .cbp-bicontrols span {display:inline-block;width: 46px;height: 54px; position: relative;line-height: 54px;cursor: pointer; margin:0 10px 0 10px; border-top: 1px solid #dfdbd1 ;border-bottom: 1px solid #dfdbd1 ;}
 }
-}
-/* ...and hide the images */
-.backgroundsize .cbp-bislideshow li img {
-	display: none;
-}
+    /* ...and hide the images */
+    .backgroundsize .cbp-bislideshow li img {display: none;}
+    .cbp-bislideshow li img {display: block;width: 100%;}
+    .cbp-bicontrols {width: 100%;height: 54px;margin: 40px 0 0 0;position:relative;text-align: center; z-index: 1}
+    .cbp-bicontrols span:before {position: absolute;width: 100%;height: 100%;top: 0;left: 0;text-align: center;font-family: 'FontAwesome';speak: none;font-style: normal;font-weight: normal;font-variant: normal;text-transform: none;font-size: 40px;color: #42281a;-webkit-font-smoothing: antialiased;opacity: 0.7;}
+    .cbp-bicontrols span:hover:before {opacity: 1;color:#a40000;}
+    .cbp-bicontrols span:active:before {top: 2px;}
+    span.cbp-biplay:before {content: "\f04b";font-size: 25px;}
+    span.cbp-bipause:before {content: "\f04c";font-size: 25px;}
+    span.cbp-binext:before {content: "\f105";}
+    span.cbp-biprev:before {content: " \f104";}
+    /* Fallback */
+    .no-js.no-backgroundsize .cbp-bislideshow li:first-child {opacity: 1;}
+    .no-js.backgroundsize .cbp-bislideshow li:first-child img {display: block;}
 
-.cbp-bislideshow li img {
-	display: block;
-	width: 100%;
+/* iPads (only) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (-webkit-min-device-pixel-ratio: 1)
+{
+    html, body {height: 100%;width: 100%;}
+    body {font-family: 'FuturaStd-Book',  sans-serif, 'Helvetica Neue', Arial;font-weight:300;letter-spacing: 3px;background-color: #f8f7ee;}
+    body.startpage , body.muehlrad, body.pastamachine, body.pizzaofen, body.italienisches_auto, body.terrasse, body.kueche, body.kontakt{ background-repeat: no-repeat; background-position:center top; background-attachment:local; background-size: auto 800px;background-color: #f8f7ee;}
+    .navbar-default { background-color: transparent; border-color:transparent;font-family: 'FuturaStd-Book',  sans-serif, 'Helvetica Neue', Arial; -webkit-transition: all 0.35s;-moz-transition: all 0.35s;transition: all 0.35s;}
+    .navbar-toggle {position: relative;float: right;padding: 9px 10px; margin-top: 8px;margin-right: 15px;margin-bottom: 8px;background-color: transparent;background-image: none;border: 0px solid transparent;border-radius: 0px;background-color: #f8f7ee;}
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle:focus { background-color: #f8f7ee;}
+    .navbar-default .navbar-header .navbar-brand {color: #f05f40;font-family: 'FuturaStd-Book',  sans-serif, 'Helvetica Neue', Arial;font-weight: 300;text-transform: uppercase;}
+    .navbar-default .navbar-header .navbar-brand:hover,
+    .navbar-default .navbar-header .navbar-brand:focus {color: #eb3812;}
+    .navbar-default .nav > li > a,
+    .navbar-default .nav > li > a:focus {text-transform: uppercase;font-weight: 300;font-size: 13px;color: #fff;}
+    .navbar-default .nav > li > a:hover,
+    .navbar-default .nav > li > a:focus:hover {color: #fff;}
+    .navbar-default .nav > li.active > a,
+    .navbar-default .nav > li.active > a:focus {color: #f05f40 !important;background-color: transparent;}
+    .navbar-default .nav > li.active > a:hover,
+    .navbar-default .nav > li.active > a:focus:hover {background-color: transparent;}
+    .navbar-fixed-top .navbar-collapse{ background-color: transparent;border-color:transparent;border-top:0px;}
+    .navbar-nav {background-color: transparent;border:0px;margin:0 0 0 0;padding:20px;width:100%;}
+    .navbar-default.affix .navbar-nav {margin:0 0 0 0; background-color:rgba(0,0,0,0.5);}
+    .logo-container {margin:46px 0 0 0;padding:20px 0 0 0;}
+    .logo-content-devices .logo-container {margin:26px 0 200px 0;}
+    .logo {width:224px;}
+    .logo-content-devices .logo-container.fotos{margin:66px 0 100px 0;}
+    .logo-content-devices .logo-container.fotos .logo{width:124px;opacity: .5;}
+    .slogan-container {width:268px;line-height:32px;width:100%;padding:30px 15% 0 15%;}
+    .ruota-container {margin:120px 0 0 0;padding:60px 0 0 0;}
+    .ruota-container img{height:200px;}
+    .angebote {text-align: center;margin:80px 0 80px 0;padding: 0 0 40px 0;}
+    .angebote span{display:block;}
+    .devices {display:block;}
+    .screens {display:none;}
+    .main {position: relative;width: 100%;height:100%;min-height: 100%;padding-bottom:0px;}
+    #map-container { min-height: 800px;width:100%;margin:0 0 0 0;bottom:0;}
+    #map {width:100%;display: block}
+    .main .header-content {position: relative;top:0;text-align: left;padding: 0px 15px 0px;width:100%;background-color: #f8f7ee;min-height:100%; height:auto;}
+    .main .kontakt-content {position: relative; text-align: left;padding: 0px 15px 0px;width:100%;background-color: #f8f7ee;min-height:100%;height:auto;}
+    .main .header-content .header-content-inner{margin-top:38px;}
+    .startpage-content-screens {display:none;}
+    .startpage-content-devices {display:block;background-color: transparent;border:0px;margin:0 0 0 0;padding:40px;position: relative;left:0px;top:40px;max-width:100%;text-align: center;font-size: 14px;color:#42281a;}
+    .startpage-content-devices p {color:#42281a;text-align: center;}
+    .backgroundsize .cbp-bislideshow li {background-repeat: no-repeat; background-position:right top; background-attachment:local; background-size: auto 800px;background-color: #f8f7ee;}
+    .cbp-bislideshow {list-style: none;width: 100%;height: 100%;position: fixed;top: 0;left: 0;z-index: -1;margin: 0;}
+    .spacer-fotos {padding:0 0 400px 0;}
 }
-.cbp-bicontrols {
-	width: 100%;
-	height: 54px;
-	margin: 40px 0 0 0;
-	position:relative;
-	text-align: center;
-        z-index: 1
-}
-.cbp-bicontrols span {
-	display:inline-block;
-	width: 46px;
-	height: 54px;
-        position: relative;
-        line-height: 54px;
-	cursor: pointer;
-        margin:0 10px 0 10px;
-        border-top: 1px solid #a69a8e ;
-        border-bottom: 1px solid #a69a8e ;
-        
-}
-.cbp-bicontrols span:before {
-	position: absolute;
-        width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	text-align: center;
-	font-family: 'FontAwesome';
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	font-size: 40px;
-	color: #a69a8e;
-	-webkit-font-smoothing: antialiased;
-	opacity: 0.7;
-}
-
-.cbp-bicontrols span:hover:before {
-	opacity: 1;
-        color:#a40000;
-}
-
-.cbp-bicontrols span:active:before {
-	top: 2px;
-}
-
-span.cbp-biplay:before {
-	content: "\f04b";
-        font-size: 25px;
-}
-
-span.cbp-bipause:before {
-	content: "\f04c";
-        font-size: 25px;
-}
-
-span.cbp-binext:before {
-	content: "\f105";
-}
-
-span.cbp-biprev:before {
-	content: " \f104";
-}
-
-.cbp-bicontrols span.cbp-binext {
-	
-}
-/* Fallback */
-.no-js.no-backgroundsize .cbp-bislideshow li:first-child {
-	opacity: 1;
-}
-.no-js.backgroundsize .cbp-bislideshow li:first-child img {
-	display: block;
-}
-
-
-
