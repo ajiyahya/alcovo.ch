@@ -180,12 +180,15 @@ aside {
     }
 .navbar-nav {background-color: rgba(0,0,0,0.9);border:0px;margin:0 0 0 0;padding:20px;}
 .logo-container {margin:46px 0 0 0;padding:20px 0 0 0;}
-.logo-content-devices .logo-container {margin:26px 0 0 0;}
+.logo-content-devices .logo-container {margin:26px 0 46px 0;}
+
 .logo {width:224px;}
+.logo-content-devices .logo-container.fotos{margin:66px 0 100px 0;}
+.logo-content-devices .logo-container.fotos .logo{width:124px;opacity: .5;}
 .slogan-container {width:268px;line-height:32px;width:100%;padding:30px 15% 0 15%;}
 .ruota-container {margin:120px 0 0 0;padding:60px 0 0 0;}
 .ruota-container img{height:200px;}
-.angebote {text-align: center;margin:80px 0 80px 0;}
+.angebote {text-align: center;margin:80px 0 80px 0;padding: 0 0 40px 0;}
 .angebote span{display:block;}
 .devices {display:block;}
 .screens {display:none;}
@@ -347,6 +350,7 @@ aside {
   width: 100%;
   height:100%;
   min-height: 100%;
+  padding-bottom:0px;
 }
 #map-container { min-height: 800px;width:100%;margin:0 0 0 0;bottom:0;}
 #map {width:100%;display: block}
@@ -408,7 +412,7 @@ span.line {
   .main {
     height:100%;
     min-height: 100%;
-
+     
   }
   .main .header-content {
     position: absolute;
@@ -417,6 +421,7 @@ span.line {
     padding: 0 50px;
     min-height:100%;
     height:auto;
+    
  }
  .main .kontakt-content {
     position: relative;
@@ -681,7 +686,7 @@ body {
 }
 .content-subpages {display:block;background-color: transparent;border:0px;margin:0 0 0 0;padding:40px;left:0px;top:40px;max-width:100%;text-align: center;font-size: 14px;color:#42281a;}
 .content-subpages p {color:#42281a;text-align: center;font-size: 14px;}
-.subnavi ul {list-style: none; text-align: center;width:100%;display: block;margin:40px 0 40px 0;padding:0;}
+.subnavi ul {list-style: none; text-align: center;width:100%;display: block;margin:40px 0 40px 0;padding:0 0 40px 0;}
 .subnavi ul li{list-style: none;}
 .subnavi ul li a{display:block;text-transform: uppercase;padding:5px 0 5px 0;color:#a69a8e;}
 .subnavi ul li a:hover , .subnavi ul li a:active, .subnavi ul li a:focus, .subnavi ul li a.active{;color:#a40000;text-decoration: none}
@@ -775,7 +780,7 @@ body {
 	top: 0;
 	left: 0;
 	z-index: -1;
-	padding: 0;
+	
 	margin: 0;
 }
 
@@ -800,6 +805,7 @@ body {
 	background-position: right top;
         background-repeat: no-repeat;
         background-attachment: local;
+        
 }
 @media (min-width: 768px) {
 .backgroundsize .cbp-bislideshow li {
@@ -807,7 +813,7 @@ body {
 	-moz-background-size: cover;
 	background-size: cover;
 	background-position: center center;
-        background-repeat: no-repeat
+        background-repeat: no-repeat;
 }
 }
 /* ...and hide the images */
