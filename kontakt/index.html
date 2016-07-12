@@ -103,7 +103,7 @@
                     <p class="braun">Mittwoch bis Freitag<br /> 11.30 bis 14.00 Uhr<br /> und ab 18.00 Uhr <br />Samstag ab 18.00 Uhr <br />sowie Sonntagabend<br /> 17.00 bis 21.00 Uhr</p>
                     <br /><span class="line bg-ocre text-center">&nbsp;</span><br /><br />
 
-                    <h2 class="uppercase"><a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">Reservation</a></h2>
+                    <h2 class="uppercase"><a href="#" class="portfolio-link" id="target" >Reservation</a></h2>
                     <br /><span class="line bg-ocre text-center">&nbsp;</span><br /><br />
                     <h2 class="uppercase"><a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">Lageplan</a></h2><br /><br />
                 </div>
@@ -120,17 +120,6 @@
             </div>
         </div>
         <div id="reservation">
-
-<script type="text/javascript" src="https://bda.bookatable.com/deploy/lbui.direct.min.js"></script>
-<script type="text/javascript">
-  LBDirect_Embed({
-     connectionid  :  "CH-RES-ALCOVO_302457:82536",
-     style  :  {
-       baseColor  :  "42281a"
-     },
-     language  :  "de-CH"
-    });
-</script>
 
         </div>
 
@@ -217,6 +206,22 @@
             }
  </script>
 
+
+<script type="text/javascript" src="https://bda.bookatable.com/deploy/lbui.direct.min.js"></script>
+
+<script type="text/javascript">
+  $(function () { $("#target").lbuiDirect(
+{
+     connectionid  :  "CH-RES-ALCOVO_302457:82536",
+     style  :  {
+       baseColor  :  "42281a"
+     },
+     language  :  "de-CH",
+     popupWindow  :  {
+       enabled  :  true}
+    });
+});
+</script>
 
 
     </body>
